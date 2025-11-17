@@ -39,7 +39,7 @@ if uploaded_file:
             "project_id": "cretebid-example",
             "files": [
                 {
-                    "filename": "example.pdf",
+                    "filename": uploaded_file.name,
                     "uri": f"data:application/pdf;base64,{encoded_pdf}",
                     "sha256": "string"
                 }
